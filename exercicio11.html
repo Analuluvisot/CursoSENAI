@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Aluguel de casas</h1>
+        <img src="imagem/casa.png" alt="casa do campo" width="250" height="250">
+        <p>Alugue sua casa dos sonhos com a empresa de confiança  há mais de 20 anosno mercado!</p>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h3>Análise do cadastro</h3>
+            <p> Preencha os próximos campos com seus dados! <br> Se estiverem de acordo entraremos em contato.</p>
+            <form method="post" action="#">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                        <label>Nome</label>
+                        <input type="text" name="Nome" placeholder="Nome completo" required>
+                        <label>Data de nascismento</label>
+                        <input type="date" name="data_dnascimento" placeholder="Data de nascimento" required>
+                        <label>Telfone</label>
+                        <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX">
+                </fieldset>
+                <fieldset>
+                    <legend>CNH</legend>
+                    <label>N° de registro</label>
+                    <input type="number" name="numero_registro" placeholder="informe o número da sua CNH" required>
+                    <label>Validade</label>
+                    <input type="date" name="validade" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Escolha sua opção de casa</legend>
+                    <label>Opções de casa</label>
+                    <select name="casa" required>
+                        <option value="">Escolha uma casa</option>
+                        <optgroup label="1 a 2 pessoas">
+                            <option value="suíte">Suíte</option>
+                            <option value="2Quartos+banheiro">2 quartos + banheiro</option>
+                            <option value="1quarto+suíte">Quarto + suíte</option>
+                        </optgroup>
+                        <optgroup label="3 a 4 pessoas">
+                            <option value="2quartos+2banheiros">2 quartos + 2 banheiros</option>
+                            <option value="3quartos+2banheiros">3 quartos + 2 banheiros</option>
+                            <option value="3quartos+3banheiros">3 quartos + 3 banheiros</option>
+                        </optgroup>
+                        <optgroup label="5 ou mais pessoas">
+                            <option value="4quartos+4banheiros">4 quartos + 4 banheiros </option>
+                            <option value="4quartos + suíte">4 quartos + suíte + 3 banheiros</option>
+                            <option value="4suítes+1quarto+1banheiro">4 suítes + 1quarto + 1banheiro</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <button type="submit">Enviar</button>
+                <hr>
+                <footer>
+                    <p>capyright - aluguel de casas</p>
+                </footer>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
