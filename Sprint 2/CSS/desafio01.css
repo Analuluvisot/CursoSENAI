@@ -1,0 +1,21 @@
+table{
+    font-size: 105%;
+    border-spacing: 400px 0px;
+    border: 1px solid;
+    text-align: center;
+}
+thead{
+    text-align: center;
+    background-color: aqua;
+    margin-left: 300px;
+}
+tbody{
+    border: 1px solid;
+}
+.algumacoisa{
+    background-color: rgb(86, 133, 205);
+    margin-left: 0px;
+}
+body {
+    margin:0%;
+}
