@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+        body, html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .cabe{
+            width: 100%;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        input{
+            width: 20%;
+            height: 30px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            background-color: #ffffff;
+            border: solid black 1.5px;
+            border-radius: 10px;
+            background-image: url(Imagem/lupa-arredondada.png);
+            background-size: 10%;
+            background-repeat: no-repeat;
+            background-position: top 5px right 10px;
+            margin-top: 30px;
+            margin-right: 20px;
+            float: right;
+        }
+        .logo{
+            float: left;
+            text-indent: 20px;
+            width: 20%;
+        }
+        .cabe ul{
+            float: left;
+            width: 50%;
+            margin: 0px 0px 0px 20px;
+            line-height: 100px;
+            text-align: center;
+        }
+        .cabe ul li{
+            text-decoration: none;
+            display: inline;
+            padding: 20px;
+            color:green;
+            font-family: "Poetsen One", sans-serif;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+        .cabe ul li:hover{
+            color: greenyellow;
+        }
+        .box1, .box2, .box3, .box4{
+            position: relative;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .box1{
+            background-image: url(Imagem/natureza.png);
+        }
+        .box2{
+            background-image: url(Imagem/natureza2.png);
+        }
+        .box3{
+            background-image: url(Imagem/natureza3.png);
+        }
+        .box4{
+            background-image: url(Imagem/natureza4.png);
+        }
+        .cont-img{
+            position: absolute;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+        }
+        .cont-img span.titulo{
+            background-color: darkgreen;
+            color: #ffffff;
+            padding: 20px;
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+        .conteudo{
+            background-color: #e3e8dd;
+            color: rgb(0, 50, 0);
+            text-align: justify;
+            padding: 50px 100px 40px 100px;
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        h2{
+            text-transform: uppercase;
+            color: darkgreen;
+            text-align: center;
+        }
+        .roda{
+            margin-top: -20px;
+            height: 330px;
+            background-color: beige;
+        }
+        .roda .down_up{
+            text-align: center;
+            color: darkgreen;
+            font-family: "Poetsen One", sans-serif;
+            font-size: 1.5em;
+        }
+        .roda .down_meio{
+            text-align: center;
+            color: darkgreen;
+            font-family: "Poetsen One", sans-serif;
+            font-size: 1.5em;
+        }
+        .roda .down_down{
+            text-align: center;
+        }
+        .roda .down_down img{
+            width: 40px;
+            border-radius: 25px;
+            border: 4px darkcyan dotted;
+            cursor: pointer;
+            margin: 20px;
+            padding: 5px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="cabe">
+        <div class="logo">
+            <img width="90px" height="90px" src="Imagem/plantar.png">
+        </div>
+        <div>
+            <ul>
+                <Li>HOME</Li>
+                <Li>SERVIÇOS</Li>
+                <Li>PRODUTOS</Li>
+                <Li>SOBRE</Li>
+            </ul>
+        </div>
+        <input class="pesq" type="text" name="pesq" placeholder="Pesquisar">
+    </div>
+    <div class="box1">
+        <div class="cont-img">
+            <span class="titulo">NATUREZA É REAL</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima saepe rerum, beatae nisi dolores quisquam. Ratione eligendi fugiat incidunt perspiciatis.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis inventore ipsam ad eos, alias repudiandae molestiae aspernatur impedit, doloribus maxime dicta placeat pariatur dolore soluta eligendi error, fuga cupiditate aut.</p>
+    </div>
+    <div class="box2">
+        <div class="cont-img">
+            <span class="titulo">NATUREZA É VIVA</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolores deserunt quod architecto molestiae similique laboriosam ab, soluta rerum, possimus illo dolore ex illum provident nulla quidem a amet molestias quas accusamus inventore dicta sequi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, consectetur! Dolor beatae ex nulla quidem ipsam distinctio non odio eaque sunt! Adipisci itaque excepturi neque veniam eveniet necessitatibus fugit repellat.</p>
+    </div>
+    <div class="box3">
+        <div class="cont-img">
+            <span class="titulo">NATUREZA É NOSSA</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolores deserunt quod architecto molestiae similique laboriosam ab, soluta rerum, possimus illo dolore ex illum provident nulla quidem a amet molestias quas accusamus inventore dicta sequi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, consectetur! Dolor beatae ex nulla quidem ipsam distinctio non odio eaque sunt! Adipisci itaque excepturi neque veniam eveniet necessitatibus fugit repellat.</p>
+    </div>
+    <div class="box4">
+        <div class="cont-img">
+            <span class="titulo">NATUREZA É VIVA</span>
+        </div>
+    </div>
+    <div class="roda">
+        <br><br><br>
+        <div class="down_up">NATUREZA</div>
+        <div class="down_meio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, ratione.<br>#NATUREZA</div>
+        <div class="down_down">
+            <a href="https://pt-br.facebook.com/" target="_blank"><img src="Imagem/icons8-facebook-32.png"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="Imagem/icons8-insta-32.png"></a>
+            <a href="https://web.whatsapp.com/"><img src="Imagem/icons8-whatsapp-32.png"></a>
+        </div>
+    </div>
+</body>
+</html>

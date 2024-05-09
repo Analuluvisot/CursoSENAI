@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.menu_top{
+    width: 100%;
+    height: 150px;
+    border-top: 40px solid brown;
+    background-color: antiquewhite;
+    padding: 20px;
+    float:left;
+   
+}
+
+.top_esp{
+    width: 140px;
+    float: left;
+    padding:10px;
+}
+
+.head_dir{
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+.pesquisa{
+    text-align: center;
+    margin: auto;
+    margin-top:60px;
+    float: left;
+    padding-left: ;
+}
+.barra{
+    border: black solid 2px;
+    background-color: rgb(238, 221, 199);
+}
+.icones{
+    float: left;
+    padding-top: 50px;
+    padding-left: 3%;
+}
+.menu{
+    background-color: rgb(9, 9, 10);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+}
+.menu ul li{
+    background-color: rgb(9, 9, 10);
+    color: white;
+    float: left;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+
+.menu ul li:hover{
+    background-color:blue;
+}
+.menu ul{
+    padding: 0;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul ul{
+    margin-left: 102px;
+    position: absolute;
+    top: 0px;
+}
+.menu ul ul li:hover{
+    background-color:rgb(3, 3, 166);
+}
+.menu ul ul ul li:hover{
+    background-color:rgb(2, 2, 88);
+}
+.clear{
+    clear: both;
+}
